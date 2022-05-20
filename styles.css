@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+header > div {
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+header .search-bar {
+  justify-content: flex-start;
+  gap: 20px;
+}
+.logo {
+  width: 50px;
+}
+.search-image {
+  width: 20px;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+div form {
+  position: relative;
+  width: 85%;
+}
+div form .input-search {
+  width: 88%;
+  padding: 7px 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.05);
+  border: none;
+}
+div form .input-search::placeholder {
+  padding-left: 25px;
+}
+div form .button-search {
+  width: 8%;
+  padding: 7px;
+  background-color: #fb3e44;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+div .join-button,
+div .log-button {
+  padding: 2px 7px;
+  color: rgba(0, 0, 0, 0.8);
+  background-color: white;
+}
+div .join-button {
+  border-color: rgba(0, 0, 0, 0.15);
+  padding: 2px 10px;
+  cursor: pointer;
+}
+div .log-button {
+  border: none;
+  cursor: pointer;
+}
+#join,
+#about,
+#products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 600px;
+  background-color: rgba(232, 217, 217, 0.3);
+}
+#join h1 {
+  font-size: 5rem;
+}
+#join article {
+  text-align: center;
+  width: 35%;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+#join div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 35%;
+}
+#join div input {
+  width: 45%;
+  padding: 15px 0px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  background-color: rgba(232, 217, 217, 0.3) e;
+  border: none;
+  cursor: pointer;
+}
+#join div .red {
+  background-color: #fb3b49;
+  box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2);
+  border: none;
+  color: white;
+}
+#about .hexagon {
+  width: 250px;
+}
+#about h2 {
+  font-size: 2.5rem;
+}
+#about article {
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 45%;
+  text-align: center;
+}
+
+#products img {
+  width: 35px;
+}
+#products .products-features {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  gap: 40px;
+}
+#products .products-features .features-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#products .products-features .features-box h3 {
+  font-size: 1.3rem;
+  color: #ed1c24;
+}
+#products input {
+  margin-top: 30px;
+  width: 300px;
+  padding: 10px 0px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  box-shadow: 8px 8px 0 rgba(128, 83, 35, 0.2);
+  border: none;
+}
